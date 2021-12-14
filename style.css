@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.root{
+
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    
+   
+    --Verypale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+@media (min-width:768)
+{
+
+    mix-width:1440px
+}
+body{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:hsl(225, 100%, 94%);
+   background-size: auto;
+   background-repeat: no-repeat;
+   background-image: url(/images/pattern-background-desktop.svg);
+
+   padding: 6rem;
+}
+
+
+.page{
+    position: relative;
+    width: 40%;
+    
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 1px 2px hsl(223, 47%, 23%, 0.15);
+    height: 120vh;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+ .cont img{
+ width: 100%;
+
+
+ border-radius: 5px;
+ 
+
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0.15rem;
+    color: hsl(223, 47%, 23%);
+}
+p{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    padding-left:100px;
+   
+    
+    color: hsl(224, 23%, 55%);
+}
+
+.mid{
+        display: flex;
+        position: relative;
+        padding-top: 20px;
+     left: 10%;
+        width: 350px;
+        height: 20%;
+       
+        background-color: rgba(226, 210, 210, 0.2);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+   
+.icon-music{
+    position:absolute;
+display: flex;
+    padding: 30px;
+}
+
+.mid p1{
+    display: flex;
+    position: absolute;
+    padding: 30px 100px;
+}
+.mid p2{
+    display: flex;
+    position: absolute;
+    padding: 50px 100px;
+    color:hsl(224, 23%, 55%);
+    transition:1s ease ;
+    -webkit-transition:1s ease ;
+    -moz-transition:1s ease ;
+    -ms-transition:1s ease ;
+    -o-transition:1s ease ;
+}
+.mid p2:hover{
+
+    color: red;
+}
+.mid p3{
+    display: flex;
+    position: absolute;
+    padding: 40px 270px;
+    color:hsl(224, 23%, 55%);
+    cursor: pointer;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+
+p3:hover{
+    color: red;
+}
+h3{
+    margin:20px auto;
+    display: flex;
+    box-shadow: 7px 7px 5px rgba(27, 30, 36, 0.15);
+    width: fit-content;
+    border: 1px solid hsl(224, 23%, 55%);
+    background-color:hsl(245, 75%, 52%);
+    border-radius:5% ;
+    padding:8px 50px;
+    -webkit-border-radius:5% ;
+    -moz-border-radius:5% ;
+    -ms-border-radius:5% ;
+    -o-border-radius:5% ;
+    color: white;
+    cursor: pointer;
+    transition:1s ease ;
+    -webkit-transition:1s ease ;
+    -moz-transition:1s ease ;
+    -ms-transition:1s ease ;
+    -o-transition:1s ease ;
+}
+h3:hover{
+
+ background-color: red;
+}
+
+
+h4{
+   display: flex;
+   padding-left: 180px;
+   padding-top: 1rem;
+   font-size: 16px;
+   cursor: pointer;
+   color: hsl(224, 23%, 55%);
+   transition:1s ease ;
+   -webkit-transition:1s ease ;
+   -moz-transition:1s ease ;
+   -ms-transition:1s ease ;
+   -o-transition:1s ease ;
+}
+h4:hover{
+
+    color: hsl(223, 47%, 23%);
+}
